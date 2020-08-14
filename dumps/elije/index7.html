@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+
+		var maxi=2;
+		var contador=new Array(0,0);
+		
+		function validar(check,grupo) {
+   //Compruebo si la casilla está marcada
+   if (check.checked==true){
+       //está marcada, entonces aumento en uno el contador del grupo
+       contador[grupo]++;
+       //compruebo si el contador ha llegado al máximo permitido
+       if (contador[grupo]>maxi) {
+          //si ha llegado al máximo, muestro mensaje de error
+          alert('No se pueden elegir más de '+maxi+' casillas a la vez.');
+          //desmarco la casilla, porque no se puede permitir marcar
+          check.checked=false;
+          //resto una unidad al contador de grupo, porque he desmarcado una casilla
+          contador[grupo]--;
+       }
+   }else {
+       //si la casilla no estaba marcada, resto uno al contador de grupo
+       contador[grupo]--;
+   }
+}
+	</script>
+</head>
+<body>
+	<form action="" method="post" enctype="multipart/form-data" name="formulario" id="formulario">
+<table width="76">
+<td width='20' valign='top'><input type='checkbox' onclick='validar(formulario.checkbox1,0)' name='checkbox1' value='checkbox1'></td>
+<td width='20' valign='top'><input type='checkbox' onclick='validar(formulario.checkbox2,0)' name='checkbox2' value='checkbox2'></td>
+<td width='20' valign='top'><input type='checkbox' onclick='validar(formulario.checkbox3,0)' name='checkbox3' value='checkbox3'></td>
+<tr>
+<td width='20' valign='top'><input type='checkbox' onclick='validar(formulario.checkbox4,1)' name='checkbox4' value='checkbox4'></td>
+<td width='20' valign='top'><input type='checkbox' onclick='validar(formulario.checkbox5,1)' name='checkbox5' value='checkbox5'></td>
+<td width='20' valign='top'><input type='checkbox' onclick='validar(formulario.checkbox6,1)' name='checkbox6' value='checkbox6'></td>
+</tr>
+</table>
+</form>
+</body>
+</html>

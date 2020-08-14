@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<form id="form" action="">
+		<input id="profe" value="Mariando Florido" type="checkbox" onchange="validation('form', this)">Profe 1
+		<input id="profe" value="Pato Ferraro" type="checkbox" onchange="validation('form', this)">Profe 2
+		<input id="profe" value="Georgi Tirotta" type="checkbox" onchange="validation('form', this)">Profe 2
+		<input id="profe" value="Esteban Mascó" type="checkbox" onchange="validation('form', this)">Profe 4
+	</form>
+
+<script>
+	function validation(form, obj) {
+	limit = 3;
+	cont = 0;
+	if (obj.checked) {
+		for (i = 0; ele = document.getElementById(form).children[i]; i++)
+			if (ele.checked) cont++;
+		if (cont > limit)
+			obj.checked = false;
+		}
+	if (cont > limit)
+		alert("Solo podes elegir 3 clases")
+	}
+</script>
+</body>
+</html>

@@ -1,0 +1,441 @@
+html, body, nav, main, footer {
+  background-color: #000 !important;
+}
+
+@font-face {
+  font-family: AmulhedDemo;
+  src: url('../fonts/Amulhedbrush.otf');
+}
+
+@font-face {
+  font-family: Impact;
+  src: url('../fonts/impact.ttf');
+}
+
+.amul{
+  font-family: AmulhedDemo;
+}
+
+.impact{
+  font-family: Impact;
+}
+
+.shadow{
+  text-shadow: 3px 3px 0px #000000;
+}
+
+.name {
+  font-size: 80%;
+}
+
+.tsize > h1 {
+  font-size: 170%;
+}
+
+.tsize > h2 {
+  font-size: 125%;
+  margin-top: 7px;
+}
+
+.font-size-title {
+  font-size: 60px;
+}
+
+.font-size-sub-title {
+  font-size: 40px;
+}
+
+.text-size {
+  font-size: 30px;
+}
+
+.text-red {
+  color: #ff0000 !important;
+}
+
+.text-blue {
+  color: #0000ff !important;
+}
+
+.text-violet {
+  color: #6600AA !important;
+}
+
+.text-green {
+  color: #008F39 !important;
+}
+
+.text-pink {
+  color: #FF0080 !important;
+}
+
+.bg-red {
+  background-color: #ff0000 !important;
+}
+
+a.bg-red:hover, a.bg-red:focus,
+button.bg-red:hover,
+button.bg-red:focus {
+  background-color: #bd2130 !important;
+}
+
+.bg-blue {
+  background-color: #0000ff !important;
+}
+
+a.bg-blue:hover, a.bg-blue:focus,
+button.bg-blue:hover,
+button.bg-blue:focus {
+  background-color: #0062cc !important;
+}
+
+.bg-violet {
+  background-color: #6600AA !important;
+}
+
+a.bg-violet:hover, a.bg-violet:focus,
+button.bg-violet:hover,
+button.bg-violet:focus {
+  background-color: #590095 !important;
+}
+
+.bg-green {
+  background-color: #008F39 !important;
+}
+
+a.bg-green:hover, a.bg-green:focus,
+button.bg-green:hover,
+button.bg-green:focus {
+  background-color: #007C32 !important;
+}
+
+.bg-pink {
+  background-color: #FF0080 !important;
+}
+
+a.bg-pink:hover, a.bg-pink:focus,
+button.bg-pink:hover,
+button.bg-pink:focus {
+  background-color: #E70074 !important;
+}
+
+main > .container {
+  padding: 60px 15px 0;
+}
+
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.btn-red {
+  color: #fff;
+  background-color: #ff0000;
+  border-color: #ff0000;
+}
+
+.btn-red:hover {
+  color: #fff;
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+.btn-blue {
+  color: #fff;
+  background-color: #0000ff;
+  border-color: #0000ff;
+}
+
+.btn-blue:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.btn-violet {
+  color: #fff;
+  background-color: #6600AA;
+  border-color: #6600AA;
+}
+
+.btn-violet:hover {
+  color: #fff;
+  background-color: #5F009F;
+  border-color: #590095;
+}
+
+.btn-green {
+  color: #fff;
+  background-color: #008F39;
+  border-color: #008F39;
+}
+
+.btn-green:hover {
+  color: #fff;
+  background-color: #008B37;
+  border-color: #008C38;
+}
+
+.btn-pink {
+  color: #fff;
+  background-color: #FF0080;
+  border-color: #FF0080;
+}
+
+.btn-pink:hover {
+  color: #fff;
+  background-color: #FA007D;
+  border-color: #F5007B;
+}
+
+.btn:hover{
+  border-width: 5px;
+  color: #fff;
+}
+
+.boton-size {
+  width: 360px;
+  height: 120px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+  font-size: 25px;
+}
+
+.boton-bckg-com-red {
+   background-image: url('../images/mixtoComercial.jpg');
+}
+
+.boton-bckg-est-red {
+   background-image: url('../images/mixtoEstilos.jpg');
+}
+
+.boton-bckg-fus-red {
+   background-image: url('../images/mixtoFusion.jpg');
+}
+
+.boton-bckg-com-blue {
+   background-image: url('../images/contempoComercial.jpg');
+}
+
+.boton-bckg-est-blue {
+   background-image: url('../images/contempoEstilos.jpg');
+}
+
+.boton-bckg-fus-blue {
+   background-image: url('../images/contempoFusion.jpg');
+}
+
+.boton-bckg-traino {
+   background-image: url('../images/traino.jpg');
+}
+
+.boton-bckg-coreo-green {
+   background-image: url('../images/mixtoInterCoreo.jpg');
+}
+
+.boton-bckg-est-green {
+   background-image: url('../images/mixtoInterEst.jpg');
+}
+
+.boton-bckg-fus-green {
+   background-image: url('../images/mixtoInterFus.jpg');
+}
+
+.boton-bckg-coreo-pink {
+   background-image: url('../images/contempoInterCoreo.jpg');
+}
+
+.boton-bckg-est-pink {
+   background-image: url('../images/contempoInterEst.jpg');
+}
+
+.boton-bckg-fus-pink {
+   background-image: url('../images/contempoInterFus.jpg');
+}
+
+.deco:link {
+  text-decoration: none;
+}
+
+.boton-size-u {
+  width: 120px;
+  height: 120px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+  font-size: 25px;
+}
+
+.checkbox input[type="checkbox"]{
+  display: none;
+}
+
+.checkbox input[type="checkbox"]:disabled ~ span {
+  filter: grayscale(100%);
+}
+
+.checkbox input:checked ~ span > h5 {
+  visibility: visible;
+}
+
+.checkbox span > h5 {
+  visibility: hidden;
+}
+
+.marianoFlorido {
+  background-image: url('../images/individuales/01.marianoFlorido.jpg');
+}
+
+.joacoFassi {
+  background-image: url('../images/individuales/02.joacoFassi.jpg');
+}
+
+.ezequielSuarez {
+  background-image: url('../images/individuales/03.ezequielSuarez.jpg');
+}
+
+.facuMachado {
+  background-image: url('../images/individuales/10.facuMachado.jpg');
+}
+
+.nicoBerrueta {
+  background-image: url('../images/individuales/11.nicoBerrueta.jpg');
+}
+
+.agusVargas {
+  background-image: url('../images/individuales/12.agusVargas.jpg');
+}
+
+.mailenCisneros {
+  background-image: url('../images/individuales/04.mailenCisneros.jpg');
+}
+
+.camilaLucca {
+  background-image: url('../images/individuales/05.camilaLucca.jpg');
+}
+
+.nicolasFleitas {
+  background-image: url('../images/individuales/06.nicolasFleitas.jpg');
+}
+
+.fedeFontan {
+  background-image: url('../images/individuales/13.fedeFontan.jpg');
+}
+
+.pameFrank {
+  background-image: url('../images/individuales/14.pameFrank.jpg');
+}
+
+.patoFerraro {
+  background-image: url('../images/individuales/15.patoFerraro.jpg');
+}
+
+.belenGarcia {
+  background-image: url('../images/individuales/07.belenGarcia.jpg');
+}
+
+.joseIgnacioJofre {
+  background-image: url('../images/individuales/08.joseIgnacioJofre.jpg');
+}
+
+.candidaSantellan {
+  background-image: url('../images/individuales/09.candidaSantellan.jpg');
+}
+
+.rosaAsencio {
+  background-image: url('../images/individuales/16.rosaAsencio.jpg');
+}
+
+.rodriVallejos {
+  background-image: url('../images/individuales/17.rodriVallejos.jpg');
+}
+
+.florAnca {
+  background-image: url('../images/individuales/18.florAnca.jpg');
+}
+
+.delfiTerna {
+  background-image: url('../images/individuales/19.delfiTerna.jpg');
+}
+
+.juliAnton {
+  background-image: url('../images/individuales/20.juliAnton.jpg');
+}
+
+.memiLubertino {
+  background-image: url('../images/individuales/21.memiLubertino.jpg');
+}
+
+.nuriaSanrroman {
+  background-image: url('../images/individuales/28.nuriaSanrroman.jpg');
+}
+
+.solBayona {
+  background-image: url('../images/individuales/29.solBayona.jpg');
+}
+
+.franMariotti {
+  background-image: url('../images/individuales/30.franMariotti.jpg');
+}
+
+.denuPaolo {
+  background-image: url('../images/individuales/22.denuPaolo.jpg');
+}
+
+.candeGonzalez {
+  background-image: url('../images/individuales/23.candeGonzalez.jpg');
+}
+
+.nikiAndreasen {
+  background-image: url('../images/individuales/24.nikiAndreasen.jpg');
+}
+
+.solFigueroa {
+  background-image: url('../images/individuales/31.solFigueroa.jpg');
+}
+
+.soleMangia {
+  background-image: url('../images/individuales/32.soleMangia.jpg');
+}
+
+.georgiSeva {
+  background-image: url('../images/individuales/33.georgiSeva.jpg');
+}
+
+.melodyLuz {
+  background-image: url('../images/individuales/25.melodyLuz.jpg');
+}
+
+.kothoNunez {
+  background-image: url('../images/individuales/26.kothoNunez.jpg');
+}
+
+.delfiGarcia {
+  background-image: url('../images/individuales/27.delfiGarcia.jpg');
+}
+
+.claribelInfante {
+  background-image: url('../images/individuales/34.claribelInfante.jpg');
+}
+
+.georgiTirotta {
+  background-image: url('../images/individuales/35.georgiTirotta.jpg');
+}
+
+.beluRita {
+  background-image: url('../images/individuales/36.beluRita.jpg');
+}
+
+.franCapriotti {
+  background-image: url('../images/individuales/37.franCapriotti.jpg');
+}
+
+.aldoVaulet {
+  background-image: url('../images/individuales/38.aldiVaulet.jpg');
+}
+
+.estebanMasco {
+  background-image: url('../images/individuales/39.estabanMasco.jpg');
+}
