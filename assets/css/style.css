@@ -189,6 +189,18 @@ main > .container {
   border-color: #F5007B;
 }
 
+.btn-gray {
+  color: #fff;
+  background-color: #CCCCCC;
+  border-color: #CCCCCC;
+}
+
+.btn-gray:hover {
+  color: #fff;
+  background-color: #BBBBBB;
+  border-color: #BBBBBB;
+}
+
 .btn:hover{
   border-width: 5px;
   color: #fff;
@@ -253,6 +265,14 @@ main > .container {
 
 .boton-bckg-fus-pink {
    background-image: url('../images/contempoInterFus.jpg');
+}
+
+.boton-round-one {
+   background-image: url('../images/roundOne.jpg');
+}
+
+.boton-round-two {
+   background-image: url('../images/roundTwo.jpg');
 }
 
 .deco:link {
