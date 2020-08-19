@@ -275,6 +275,14 @@ main > .container {
    background-image: url('../images/roundTwo.jpg');
 }
 
+.boton-round-one-make-combo {
+   background-image: url('../images/roundOneArmaTuCombo.jpg');
+}
+
+.boton-round-two-make-combo {
+   background-image: url('../images/roundTwoArmaTuCombo.jpg');
+}
+
 .deco:link {
   text-decoration: none;
 }
