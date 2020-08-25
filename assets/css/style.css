@@ -283,6 +283,10 @@ main > .container {
    background-image: url('../images/roundTwoArmaTuCombo.jpg');
 }
 
+.boton-round-two-make-combo-armado {
+  background-image: url('../images/roundTwoComboArmado.jpg');
+}
+
 .deco:link {
   text-decoration: none;
 }
