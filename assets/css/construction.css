@@ -1,0 +1,27 @@
+html, body {
+	height: 100%;
+	margin:  0;
+	padding: 0;
+}
+.construction-back {
+	background-image: url('../images/back02.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.box-back{
+	width: 100%;
+	/* max-width: 330px; */
+	padding:  15px;
+	margin: auto;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.big-icons i {
+	font-size: 175%;
+}
