@@ -32,12 +32,12 @@
                 $mail->Port = 587;
                 $mail->SMTPAuth = true;
                 // set login detail for gmail account
-                $mail->Username = 'piso2clasesonline@gmail.com';
-                $mail->Password = 'Riobamba2119';
+                $mail->Username = '**********';
+                $mail->Password = '**********';
                 $mail->CharSet = 'utf-8';
                 // set subject
                 $mail->setFrom($email, $username);
-                $mail->addAddress('piso2clasesonline@gmail.com');
+                $mail->addAddress('**********');
                 $mail->addReplyTo($email, $username);
                 $mail->addAttachment($uploadfile, 'Comprobante de: '.$username);
                 $mail->IsHTML(true);
@@ -64,12 +64,12 @@
                         $mail2->isSMTP();
                         $mail2->Host = 'smtp.gmail.com';
                         $mail2->SMTPAuth = true;
-                        $mail2->Username = 'piso2clasesonline@gmail.com';
-                        $mail2->Password = 'Riobamba2119';
+                        $mail2->Username = '**********';
+                        $mail2->Password = '**********';
                         $mail2->SMTPSecure = 'tls';
                         $mail2->Port = 587;
 
-                        $mail2->setFrom('piso2clasesonline@gmail.com', 'Piso 2 en Movimiento');
+                        $mail2->setFrom('**********', 'Piso 2 en Movimiento');
                         $mail2->addAddress($email, $username);
 
                         $mail2->isHTML(true);
